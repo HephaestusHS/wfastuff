@@ -76,5 +76,13 @@ namespace phelosphe
             label.ForeColor = Color.White;
             panel.Controls.Add(label);
         }
+        public static void CreateCirclesforTimer(this Panel panel, Form1 form, int x, int y, int width, int height)
+        {
+            panel.Height = height;
+            panel.Width = width;
+            panel.Location = new Point(x, y);
+            panel.BackColor = Color.Black;
+            panel.Parent = form;
+        }
     }
 }
