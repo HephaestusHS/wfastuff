@@ -37,11 +37,11 @@ namespace phelosphe
             //AnswerPanelThree.BackColor = Color.Black;
             QuePnl.CreateAPanel(this, 0, this.Height - 545, this.Width - 300, 200);
             JokerPanelOne.CreateAPanel(this, 30, 21, 90, 75);
-            JokerPanelOne.GiveBgImage(@"C:\Users\hachi\source\repos\phelosphe\phelosphe\Images\book.png", 15, 25, 60, 34);
+            JokerPanelOne.GiveBgImage(@"Images\book.png", 15, 25, 60, 34);
             JokerPanelTwo.CreateAPanel(this, 160, 21, 90, 75);
             JokerPanelThree.CreateAPanel(this, 290, 21, 90, 75);
             JokerPanelTwo.CreateLabelforPanel("½", 22, 18, 50, 50);
-            JokerPanelThree.GiveBgImage(@"C:\Users\hachi\source\repos\phelosphe\phelosphe\Images\pfp.png", 26, 18, 40, 45);
+            JokerPanelThree.GiveBgImage(@"Images\pfp.png", 26, 18, 40, 45);
             this.WindowState = FormWindowState.Maximized;
             this.FormBorderStyle = FormBorderStyle.None;
         }
